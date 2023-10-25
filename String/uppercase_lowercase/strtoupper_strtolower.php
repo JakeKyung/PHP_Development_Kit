@@ -1,8 +1,7 @@
 <?php
-
 /**
- * 대문자를 소문자로 : strtolower()
- * 소문자를 대문자로 : strtoupper()
+ * 대문자를 소문자로(Make a string lowercase) : strtolower(string $string): string
+ * 소문자를 대문자로(Make a string uppercase) : strtoupper(string $string): string ,
  */
 $lowercase_text = "book";
 if($lowercase_text === strtolower($lowercase_text))
